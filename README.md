@@ -46,15 +46,26 @@ For example,
 
 Also, a LOT of custom xpath had to be written to handle the dynamic elements, and for this reason some tests are stronger and more reliable than others. The final test in the list below is very finicky when handling the "move to" dropdown to move a message into a folder.
 
-* Login to gmail
-* Cannot login with invalid password
-* Compose and send an email*
-* Filter/search the email list*
-* Delete an email
-* Add a folder
-* Move a message into the folder*
+Using Page Object Model design pattern & BDD, implement the following test scenarios:
+1. Scenario Outline for login functionality using the following users (standard_user,
+locked_out_user, problem_user, performance_glitch_user)
+2. Scenario with "standart_user" where multiple items checkout with their price validation
+using Cucumber Data Tables
+3. Scenario which verifies table order dropdown
+4. Add simple reporting for the scenarios
 
 *Requires message parameters to be set in `feature` file
+
+Choose an appropriate framework for the task and motivate your choice covering at least
+the following:
+What options did you evaluate?
+- Python + Behave = The Best and most beautiful solution. 
+Why did you select this framework?
+- It's lightweight and super fast, easy to read and understand.
+What are the main advantages of the selected framework?
+- Clear and well defined code by requirements.
+What are the main disadvantages of the selected framework?
+- Still searching for them.
 
 #### Other improvements
 * Configure logging
