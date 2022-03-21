@@ -58,12 +58,16 @@ using Cucumber Data Tables \
 
 Choose an appropriate framework for the task and motivate your choice covering at least
 the following:
+
 1. What options did you evaluate? 
   - Python + Behave = The Best and most beautiful solution.
+  
 2. Why did you select this framework?
-  - It's lightweight and super fast, easy to read and understand. \
+  - It's lightweight and super fast, easy to read and understand. 
+  
 3. What are the main advantages of the selected framework?
   - Clear and well defined code by requirements.
+  
 4.What are the main disadvantages of the selected framework?
   - Still searching for them.
 
