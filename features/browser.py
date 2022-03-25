@@ -8,4 +8,4 @@ class Browser(object):
     driver.maximize_window()
 
     def close(self):
-        self.driver.close()
+        self.driver.quit()
